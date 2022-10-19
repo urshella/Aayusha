@@ -1,10 +1,5 @@
-<!-- <ion-header>
-  <ion-toolbar>
-    
-  </ion-toolbar>
-</ion-header> -->
-
 <ion-content [fullscreen]="true">
+  
   <div style="background-color:#0b3315">
     <img class="logo" src="\assets\images\logo.jpg">
   </div>
@@ -12,13 +7,22 @@
   <div class="cover-block">
     <ion-img src="/assets/images/cover.jpg" class="cover-image"></ion-img>
     <div class="cover-text-block">
-      <ion-title style="font-weight:bolder">Naturally,<br>Cinnamon</ion-title>
-      <ion-text style="font-size:x-small">100% ORGANIC CEYLON CINNAMON</ion-text>
+      <ion-title style="font-weight:bolder; text-align:center">
+        Naturally,<br>Cinnamon
+      </ion-title>
+      <ion-text style="font-size:x-small; text-align:center">
+        100% ORGANIC CEYLON CINNAMON
+      </ion-text>
     </div>
   </div>
 
   <div class="benefits">
-    <ion-title style="text-align:center">Benefits of Ceylon Cinnamon</ion-title><br>
+    <ion-title style="font-size:x-small; font-weight:bold; text-align:center">
+      ABOUT THE DRINK
+    </ion-title>
+    <ion-title style="font-weight:bolder; text-align:center">
+      Benefits of Ceylon Cinnamon
+    </ion-title><br>
     <ion-grid>
       <ion-row>
         <ion-col style="text-align: center">
@@ -78,5 +82,51 @@
     </ion-grid>
   </div>
   
-  
+  <div class="contact">
+    <ion-title style="font-size:x-small; font-weight:bold; text-align:center">
+      PLACE AN ORDER
+    </ion-title>
+    <ion-title style="font-weight:bold; text-align:center">
+      Reach Out to Us
+    </ion-title>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-img src="/assets/images/contact.jpg"></ion-img> 
+        </ion-col>
+        <ion-col>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="auto">
+                <ion-icon name="navigate"></ion-icon>
+              </ion-col>
+              <ion-col style="font-size:small">
+                AAYUSHA CEYLON (PVT) LTD <br>
+                199/2 Galle Road, Mount Lavinia <br>
+                Colombo, Sri Lanka
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="auto">
+                <ion-icon name="globe"></ion-icon>
+              </ion-col>
+              <ion-col style="font-size:small">
+                www.aayushaceylon.com
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="auto">
+                <ion-icon name="call"></ion-icon>
+              </ion-col>
+              <ion-col style="font-size:small">
+                077 777 7777
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
 </ion-content>
+
+
