@@ -41,11 +41,20 @@ ion-content{
 .cover-block{
   position: relative;
   height: 85vh;
+  background-color:#384835;
 }
 
 .cover-image{
-  object-fit:cover;
+  object-fit: cover;
   height: 85vh;
+}
+
+.construction{
+  position:absolute;
+  top: 3%;
+  left: 10%;
+  width: 80%;
+  color:#0b3315;
 }
 
 .cover-text-block{
@@ -57,15 +66,6 @@ ion-content{
   padding-right: 20px;
   background-color:#0b3315;
   color: #cdaf8c;
-}
-
-.benefits{
-  background-color: #cdaf8c;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  padding-left: 3%;
-  padding-right: 3%;
-  color: #0b3315;
 }
 
 .contact{
@@ -82,13 +82,13 @@ ion-content{
   height: 150px;
 }
 
-.new-block{
+.details{
   position:relative;
 }
 
 .new-image{
   object-fit:cover;
-  height: 130vh;
+  height: 125vh;
 }
 
 .new-grid{
