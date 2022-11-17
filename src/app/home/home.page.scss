@@ -78,6 +78,23 @@ ion-content{
 }
 
 .contact-image{
+  object-fit:contain;
+  height: 150px;
+}
+
+.new-block{
+  position:relative;
+}
+
+.new-image{
   object-fit:cover;
-  height:100%;
+  height: 130vh;
+}
+
+.new-grid{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  width: 96%;
+  color: #07220e;
 }
